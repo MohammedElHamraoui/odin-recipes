@@ -1,0 +1,74 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Arial, sans-serif; /* Modern font with fallback */
+  line-height: 1.6;
+  background-color: #f9f7f5; /* Light neutral background */
+  color: #333; /* Dark gray text for readability */
+}
+
+/* Header Styling */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #d97706; /* Warm orange tone for Moroccan feel */
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #d97706;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Image Styling */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%; /* Adjusts for responsive layout */
+  max-width: 300px; /* Ensures consistent max size */
+}
+
+/* Paragraph Styling */
+p {
+  text-align: justify;
+  padding: 0 15px;
+}
+
+/* List Styling */
+ul,
+ol {
+  padding: 0 30px;
+  margin: 10px 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* Highlighted Steps */
+strong {
+  color: #d97706; /* Matches header color for emphasis */
+}
+
+/* Box for Recipe Content */
+body > *:not(h1):not(img) {
+  margin: 0 auto;
+  max-width: 600px; /* Keeps content well-contained */
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Attribution */
+footer {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 0.9rem;
+  color: #666;
+}
