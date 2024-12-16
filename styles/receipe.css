@@ -29,8 +29,9 @@ img {
   margin: 20px auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 90%; /* Adjusts for responsive layout */
+  width: 100%; /* Adjusts for responsive layout */
   max-width: 300px; /* Ensures consistent max size */
+  height: auto; /* Maintains the aspect ratio */
 }
 
 /* Paragraph Styling */
